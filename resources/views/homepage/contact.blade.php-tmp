@@ -1,0 +1,46 @@
+@extends('homepage.master')
+
+@section('content')
+			<!--contact-section-starts-->
+				<div class="contact-section">
+	<header>
+		<h2 class="heading text-center">Find Us Here</h2>
+	</header>
+
+     <div class="map">
+		<div style="height:310px;width:1140px;max-width:100%;list-style:none; transition: none;overflow:hidden;"><div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Strathmore+University,+Nairobi+West,+Nairobi,+Kenya&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" href="https://www.interserver-coupons.com" id="grab-map-authorization">visit them now</a><style>#display-google-map .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=9f4d15a6-d45b-7768-579b-a9d23dd1f65b&c=google-map-code&u=1466323114" defer="defer" async="async"></script>
+	 </div>
+	 <div class="contact_grid">
+	 	  <div class="col-md-8 contact-top">
+			  <h3>Send us a message</h3>
+			  <p class="contact_msg">Give us a suggestion or complain .help us improve this site</p>
+			     <form>
+					<div class="to">
+                     	<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 	<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left:20px">
+					 	<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left:20px">
+					</div>
+					<div class="text">
+	                   <textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+	                </div>
+	                <div class="form-submit1">
+			           <input name="submit" type="submit" id="submit" value="Submit Your Message"><br>
+			           <p class="m_msg">Make sure you put a valid email</p>
+					</div>
+					<div class="clearfix"> </div>
+                 </form>
+         </div>
+         <div class="col-md-4 contact-top_right">
+			  <h3>contact info</h3>
+			  <p>If you need any assistance about out siste feel free to call us or mail us and we we assist you as soon as possible. </p>
+			  <ul class="contact_info">
+			  	<li><span>+254718392279</span></li>
+			  	<li><span class="msg"><a href="mail.informe.co.ke">mail.informe.co.ke</a></span></li>
+			  </ul>
+	 	</div>
+
+		<div class="clearfix"></div>
+     </div>
+</div>
+        </section>
+        @endsection
